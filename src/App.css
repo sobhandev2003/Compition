@@ -1,6 +1,7 @@
 .route-container{
     /* width: 100vw; */
     /* height: 100vw; */
+    z-index: -1;
 }
 .nav{
     position: fixed;
