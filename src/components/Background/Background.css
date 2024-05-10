@@ -1,0 +1,11 @@
+.home-background{
+   
+    width: 100%;
+    height: 100%;
+}
+.home-background video{
+    z-index: -1;
+    opacity: .2;
+    width: 100%;
+    
+}

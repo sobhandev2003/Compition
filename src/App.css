@@ -1,0 +1,12 @@
+.route-container{
+    /* width: 100vw; */
+    /* height: 100vw; */
+}
+.nav{
+    position: fixed;
+    top: 0;
+}
+.after-nav{
+    display: flex;
+    flex-direction: column;
+}

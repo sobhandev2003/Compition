@@ -1,0 +1,17 @@
+.home-main{
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: black;
+}
+.site-titale{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    color: white;
+    font-size: 7rem;
+    letter-spacing: 1rem;
+    font-weight: 700;
+    /* font-style: italic; */
+}
