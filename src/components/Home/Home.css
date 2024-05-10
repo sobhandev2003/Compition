@@ -9,10 +9,20 @@
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 10;
-    color: white;
+    color: transparent;
     font-size: 7rem;
     letter-spacing: 1rem;
     font-weight: 700;
-    /* text-shadow: 4px 3px 2px   white; */
-    /* font-style: italic; */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+@media only screen and (max-width: 800px)  {
+  .site-titale{
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 600px)  {
+  .site-titale{
+    font-size: 4rem;
+  }
 }

@@ -23,7 +23,7 @@
     gap: 1rem;
 }
 .foter-container .social-link .icon{
-    color: white;
+    color: black;
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -42,11 +42,11 @@
     /* height: 1rem; */
 }
 .foter-container .bottom .I span{
-    color: white;
+    color: black;
     font-size: 1.5rem;
 }
 .foter-container .bottom .I .I-des{
-    color: white;
+    color: black;
     font-size: 1rem;
     width: 20vw;
     text-align: justify;
