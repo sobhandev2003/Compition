@@ -12,15 +12,29 @@ function Nav() {
   const [isShow,setIsShow]=useState(false)
   // console.log({ height, width });
   const [isMobile,setIsMobile]=useState(false);
-  
+  console.log(isShow,isMobile)
   useEffect(()=>{
     if(width<651){
       setIsMobile(true)
     }
   },[width])
+  //========================================
+ useEffect(()=>{
+  const nav = document.getElementById('mynav');
+  window.onscroll = function () { 
+      if (document.body.scrollTop >= 50 ) {
+          nav.classList.add("nav-colored");
+          nav.classList.remove("nav-transparent");
+      } 
+      else {
+          nav.classList.add("nav-transparent");
+          nav.classList.remove("nav-colored");
+      }
+  };
+ },[])
   return (
     <div className='nav-main-container'>
-      <nav>
+      <nav id='mynav' className='nav-transparent'>
       {
         !isMobile?<>
           <div className='logo'>
@@ -41,7 +55,10 @@ function Nav() {
          </div>
           <div className='togole-div'>
             <div className='togole-btn-div'>
-            <CgToolbarLeft onClick={()=>setIsShow(true)} className='toggle-btn'/>
+              <button  className='togle-btn' onClick={()=>setIsShow(true)}>
+              <CgToolbarLeft  className='toggle-btn-icon'/>
+              </button>
+            
             </div>
             {
               isMobile && isShow && <div className='togole-details-div'>

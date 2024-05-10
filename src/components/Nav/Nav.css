@@ -2,6 +2,8 @@
    
     width: 100vw;
     height: 60px;
+
+    z-index: 1000;
     /* background-color: rgb(135, 127, 238); */
 }
 
@@ -10,9 +12,15 @@
     height: 60px;
     position: fixed;
     top: 0;
-    background-color:transparent;
+    
     display: flex;
     justify-content: space-between;
+}
+.nav-main-container .nav-transparent{
+    background-color:transparent;
+}
+.nav-main-container .nav-colored{
+    background-color:black;
 }
 
 .nav-main-container nav .logo {
@@ -46,8 +54,12 @@
 }
 .toggle-btn{
     color: white;
-    font-size: 2rem;
+   
     cursor: pointer;
+    z-index:20;
+}
+.toggle-btn-icon{
+    font-size: 2rem;
 }
 .togole-div{
     position: relative;

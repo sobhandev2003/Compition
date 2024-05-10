@@ -1,0 +1,11 @@
+.product-container-main{
+    width: 100vw;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* margin-bottom: 3rem; */
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
