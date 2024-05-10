@@ -1,0 +1,43 @@
+.nav-main-container {
+    width: 100vw;
+    height: 60px;
+    /* background-color: rgb(135, 127, 238); */
+}
+
+.nav-main-container nav {
+    width: 90%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-main-container nav .logo {
+    width: 10%;
+    height: 90%;
+  cursor: pointer;
+}
+
+.nav-main-container nav .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-main-container a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.nav-main-container .center-route-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.nav-main-container .auth-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
